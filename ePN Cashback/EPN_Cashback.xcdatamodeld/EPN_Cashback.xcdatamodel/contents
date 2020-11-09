@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName=".Category" syncable="YES">
+        <attribute name="id" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FaqAnswerQuestion" representedClassName=".FaqAnswerQuestion" syncable="YES">
+        <attribute name="answer" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lang" attributeType="String" syncable="YES"/>
+        <attribute name="question" attributeType="String" syncable="YES"/>
+        <attribute name="questionAnswerId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FaqCategory" inverseName="answerQuestions" inverseEntity="FaqCategory" syncable="YES"/>
+    </entity>
+    <entity name="FaqCategory" representedClassName=".FaqCategory" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="priority" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="answerQuestions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FaqAnswerQuestion" inverseName="category" inverseEntity="FaqAnswerQuestion" syncable="YES"/>
+    </entity>
+    <entity name="Label" representedClassName=".Label" syncable="YES">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="priority" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="shops" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Shop" inverseName="labels" inverseEntity="Shop" syncable="YES"/>
+    </entity>
+    <entity name="Shop" representedClassName=".Shop" syncable="YES">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image" attributeType="String" syncable="YES"/>
+        <attribute name="logo" attributeType="String" syncable="YES"/>
+        <attribute name="logo_small" attributeType="String" syncable="YES"/>
+        <attribute name="maxRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="priority" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tag" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="labels" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Label" inverseName="shops" inverseEntity="Label" syncable="YES"/>
+    </entity>
+    <entity name="ShopImage" representedClassName=".ShopImage" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imageUrl" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="-473.328125" positionY="-277.1953125" width="128" height="73"/>
+        <element name="FaqAnswerQuestion" positionX="-30.55078125" positionY="-398.67578125" width="128" height="133"/>
+        <element name="FaqCategory" positionX="-312.51953125" positionY="-368.87109375" width="128" height="103"/>
+        <element name="Label" positionX="-68.296875" positionY="-49.14453125" width="102.34765625" height="105"/>
+        <element name="Shop" positionX="-473.23828125" positionY="-138.9296875" width="114.81640625" height="195"/>
+        <element name="ShopImage" positionX="127.17578125" positionY="-176.8515625" width="128" height="73"/>
+    </elements>
+</model>

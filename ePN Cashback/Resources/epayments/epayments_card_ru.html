@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title></title>
+            <style>
+                body {
+                    margin: 0;
+                }
+            .button {
+                width: 100%;
+                padding: 21px 40px 19px;
+                background: #000000;
+                color: #fff;
+                border: 0;
+            }
+            .widget {
+                margin-top: 8px;
+                margin-left: 8px;
+                margin-right: 8px;
+                height: calc(100vh - 64px);
+            }
+            </style>
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
+            </head>
+    <body>
+        <div class="widget" id="root-widget"></div>
+        <button class="button" id="submit-button">ДОБАВИТЬ</button>
+        <script src="https://static.epayments.com/card-token-widget/cardDataWidget.js">
+            </script>
+        <script>
+            (function () {
+             document.addEventListener('DOMContentLoaded', function () {
+                                       var style = {
+                                       widget: {},
+                                                       field: {},
+                                                       fieldInput: {},
+                                                       fieldInputPlaceholder: {},
+                                                       fieldInputControl: {},
+                                                       fieldSubmit: {},
+                                                       fieldSubmitError: {},
+                                                       fieldSubmitButton: {}
+                                                   };
+                                       var option = {
+                                       root: '#root-widget',
+                                       submitButton: 'submit-button',
+                                       fields: [['number'], ['expireDate'], ['embossingName']],
+                                       sid: '22abee96b232697fb52a0a1f8f9daaf8',
+                                       partnerId: '74',
+                                       sign: '6c54c909400e75694e88e17f4b4fe865',
+                                       lang: 'ru',
+                                       style: style
+                                       };
+                                       var widget = cardDataWidget.init(option);
+                                       widget.addEventListener('tokenCreateSuccess', function (data) {
+                                                               webkit.messageHandlers.result.postMessage(data);
+                                                               });
+                                       })
+             })()
+            </script>
+    </body>
+</html>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName=".Category" syncable="YES">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="parentId" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="CategoryOffers" representedClassName=".CategoryOffers" syncable="YES">
+        <attribute name="idCategory" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="idStore" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Doodle" representedClassName=".Doodle" syncable="YES">
+        <attribute name="backgroud" optional="YES" attributeType="String"/>
+        <attribute name="dateFrom" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dateTo" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="link" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="offerLogo" optional="YES" attributeType="String"/>
+        <attribute name="priority" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="subTitle" optional="YES" attributeType="String"/>
+        <attribute name="textButton" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FaqAnswerQuestion" representedClassName=".FaqAnswerQuestion" syncable="YES">
+        <attribute name="answer" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lang" attributeType="String"/>
+        <attribute name="question" attributeType="String"/>
+        <attribute name="questionAnswerId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FaqCategory" inverseName="answerQuestions" inverseEntity="FaqCategory"/>
+    </entity>
+    <entity name="FaqCategory" representedClassName=".FaqCategory" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="priority" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" attributeType="String"/>
+        <relationship name="answerQuestions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FaqAnswerQuestion" inverseName="category" inverseEntity="FaqAnswerQuestion"/>
+    </entity>
+    <entity name="FavoriteStore" representedClassName=".FavoriteStore" syncable="YES">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Message" representedClassName=".Message" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="message" optional="YES" attributeType="String"/>
+        <attribute name="replyToId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String"/>
+        <relationship name="files" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MessageFile" inverseName="message" inverseEntity="MessageFile"/>
+    </entity>
+    <entity name="MessageFile" representedClassName=".MessageFile" syncable="YES">
+        <attribute name="file" optional="YES" attributeType="Binary"/>
+        <attribute name="fileExtension" optional="YES" attributeType="String"/>
+        <attribute name="fileName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="link" optional="YES" attributeType="String"/>
+        <attribute name="messageId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="size" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="message" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Message" inverseName="files" inverseEntity="Message"/>
+    </entity>
+    <entity name="OfflineOffer" representedClassName=".OfflineOffer" syncable="YES">
+        <attribute name="descript" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="priority" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="tag" optional="YES" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <attribute name="type" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="typeId" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Payment" representedClassName=".Payment" syncable="YES">
+        <attribute name="account" optional="YES" attributeType="String"/>
+        <attribute name="amount" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="brand" optional="YES" attributeType="String"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="currency" attributeType="String"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isCharity" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="number" optional="YES" attributeType="String"/>
+        <attribute name="purseType" attributeType="String"/>
+        <attribute name="status" attributeType="String"/>
+    </entity>
+    <entity name="Promocode" representedClassName=".Promocode" syncable="YES">
+        <attribute name="activatedAt" attributeType="String"/>
+        <attribute name="code" attributeType="String"/>
+        <attribute name="expiredAt" attributeType="String"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="status" attributeType="String"/>
+    </entity>
+    <entity name="PushNotification" representedClassName=".PushNotification" syncable="YES">
+        <attribute name="body" optional="YES" attributeType="String"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isRead" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Shop" representedClassName=".Shop" syncable="YES">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" attributeType="String"/>
+        <attribute name="linkDefault" optional="YES" attributeType="String"/>
+        <attribute name="logo" attributeType="String"/>
+        <attribute name="logo_small" optional="YES" attributeType="String"/>
+        <attribute name="maxRate" optional="YES" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="offlineCbImage" optional="YES" attributeType="String"/>
+        <attribute name="offlineCbImageDescription" optional="YES" attributeType="String"/>
+        <attribute name="priority" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="tag" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <attribute name="typeId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ShopImage" representedClassName=".ShopImage" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageUrl" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="-261.53125" positionY="15.37109375" width="128" height="88"/>
+        <element name="CategoryOffers" positionX="-480.9140625" positionY="-298.5234375" width="128" height="73"/>
+        <element name="Doodle" positionX="-261" positionY="-234" width="128" height="225"/>
+        <element name="FaqAnswerQuestion" positionX="-30.55078125" positionY="-398.67578125" width="128" height="133"/>
+        <element name="FaqCategory" positionX="-263.51953125" positionY="-374.70703125" width="128" height="103"/>
+        <element name="FavoriteStore" positionX="-485.7265625" positionY="186.73046875" width="128" height="58"/>
+        <element name="OfflineOffer" positionX="-91.75" positionY="-81.71875" width="128" height="178"/>
+        <element name="Payment" positionX="131.6328125" positionY="-74.0546875" width="128" height="193"/>
+        <element name="Promocode" positionX="149.7421875" positionY="-352.30078125" width="128" height="120"/>
+        <element name="PushNotification" positionX="-88.8984375" positionY="-233.30859375" width="128" height="120"/>
+        <element name="Shop" positionX="-483.85546875" positionY="-141.12890625" width="128" height="253"/>
+        <element name="Message" positionX="-206.59765625" positionY="-564.73046875" width="128" height="133"/>
+        <element name="MessageFile" positionX="-35.765625" positionY="-580.1875" width="128" height="163"/>
+        <element name="ShopImage" positionX="127.17578125" positionY="-176.8515625" width="128" height="73"/>
+    </elements>
+</model>

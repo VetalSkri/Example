@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="knf-xe-CjR">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pop Up View Controller-->
+        <scene sceneID="v0p-s9-wsf">
+            <objects>
+                <viewController storyboardIdentifier="PopUpViewController" modalPresentationStyle="overFullScreen" id="knf-xe-CjR" customClass="PopUpViewController" customModule="ePN_Cashback" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f4I-M3-g9i">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E8Y-dD-hqd">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x3V-bl-DSp" customClass="EPNPopUp" customModule="ePN_Cashback" customModuleProvider="target">
+                                        <rect key="frame" x="25" y="20" width="270" height="508"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="270" id="2BB-7z-X6p"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="contentType">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="160-Sw-vWr" customClass="EPNButton" customModule="ePN_Cashback" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="503" width="320" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="vNO-4u-EOT"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="styleType">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="text" value="Send"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="x3V-bl-DSp" firstAttribute="top" secondItem="E8Y-dD-hqd" secondAttribute="top" constant="20" id="0pi-Ck-6Yq"/>
+                                    <constraint firstItem="x3V-bl-DSp" firstAttribute="centerX" secondItem="E8Y-dD-hqd" secondAttribute="centerX" id="28B-uc-jBG"/>
+                                    <constraint firstItem="160-Sw-vWr" firstAttribute="leading" secondItem="E8Y-dD-hqd" secondAttribute="leading" id="4Wd-1N-3Cu"/>
+                                    <constraint firstItem="x3V-bl-DSp" firstAttribute="centerY" secondItem="E8Y-dD-hqd" secondAttribute="centerY" priority="250" id="SdJ-j4-G6O"/>
+                                    <constraint firstItem="160-Sw-vWr" firstAttribute="centerX" secondItem="E8Y-dD-hqd" secondAttribute="centerX" id="TJh-9o-4yf"/>
+                                    <constraint firstAttribute="bottom" secondItem="160-Sw-vWr" secondAttribute="bottom" id="Wcr-1e-UB7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.3962703339041096" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YkP-vX-UAv" firstAttribute="trailing" secondItem="E8Y-dD-hqd" secondAttribute="trailing" id="0s2-kl-lPk"/>
+                            <constraint firstItem="E8Y-dD-hqd" firstAttribute="leading" secondItem="YkP-vX-UAv" secondAttribute="leading" id="9wf-HY-5x5"/>
+                            <constraint firstItem="E8Y-dD-hqd" firstAttribute="top" secondItem="YkP-vX-UAv" secondAttribute="top" id="Ab9-Qc-7Ld"/>
+                            <constraint firstItem="YkP-vX-UAv" firstAttribute="bottom" secondItem="E8Y-dD-hqd" secondAttribute="bottom" id="hM0-lq-VUx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YkP-vX-UAv"/>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="160-Sw-vWr" id="gmY-70-gih"/>
+                        <outlet property="buttonBottomConstraint" destination="Wcr-1e-UB7" id="FVQ-Qm-hBJ"/>
+                        <outlet property="popup" destination="x3V-bl-DSp" id="E4T-zs-sgu"/>
+                        <outlet property="viewAlignCenterYConstraint" destination="SdJ-j4-G6O" id="eOy-Mm-nfg"/>
+                        <outlet property="viewTopSpaceConstraint" destination="0pi-Ck-6Yq" id="ZaG-CD-NbH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sgP-R1-MUy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-187.5" y="151.05633802816902"/>
+        </scene>
+    </scenes>
+</document>

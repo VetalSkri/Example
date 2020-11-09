@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18F203" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName=".Category" syncable="YES">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="parentId" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="FaqAnswerQuestion" representedClassName=".FaqAnswerQuestion" syncable="YES">
+        <attribute name="answer" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lang" attributeType="String" syncable="YES"/>
+        <attribute name="question" attributeType="String" syncable="YES"/>
+        <attribute name="questionAnswerId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FaqCategory" inverseName="answerQuestions" inverseEntity="FaqCategory" syncable="YES"/>
+    </entity>
+    <entity name="FaqCategory" representedClassName=".FaqCategory" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="priority" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="answerQuestions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FaqAnswerQuestion" inverseName="category" inverseEntity="FaqAnswerQuestion" syncable="YES"/>
+    </entity>
+    <entity name="Label" representedClassName=".Label" syncable="YES">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="priority" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="shops" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Shop" inverseName="labels" inverseEntity="Shop" syncable="YES"/>
+    </entity>
+    <entity name="Payment" representedClassName=".Payment" syncable="YES">
+        <attribute name="account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="amount" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="currency" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isCharity" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="purseType" attributeType="String" syncable="YES"/>
+        <attribute name="status" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Promocode" representedClassName=".Promocode" syncable="YES">
+        <attribute name="activatedAt" attributeType="String" syncable="YES"/>
+        <attribute name="code" attributeType="String" syncable="YES"/>
+        <attribute name="expiredAt" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="status" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PushNotification" representedClassName=".PushNotification" syncable="YES">
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isRead" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Shop" representedClassName=".Shop" syncable="YES">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image" attributeType="String" syncable="YES"/>
+        <attribute name="logo" attributeType="String" syncable="YES"/>
+        <attribute name="logo_small" attributeType="String" syncable="YES"/>
+        <attribute name="maxRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="priority" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tag" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="labels" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Label" inverseName="shops" inverseEntity="Label" syncable="YES"/>
+    </entity>
+    <entity name="ShopImage" representedClassName=".ShopImage" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imageUrl" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="-473.328125" positionY="-277.1953125" width="128" height="90"/>
+        <element name="FaqAnswerQuestion" positionX="-30.55078125" positionY="-398.67578125" width="128" height="133"/>
+        <element name="FaqCategory" positionX="-312.51953125" positionY="-368.87109375" width="128" height="103"/>
+        <element name="Label" positionX="-68.296875" positionY="-49.14453125" width="102.34765625" height="105"/>
+        <element name="Promocode" positionX="-261" positionY="-234" width="128" height="120"/>
+        <element name="PushNotification" positionX="-88.8984375" positionY="-233.30859375" width="128" height="120"/>
+        <element name="Shop" positionX="-473.23828125" positionY="-138.9296875" width="114.81640625" height="195"/>
+        <element name="ShopImage" positionX="127.17578125" positionY="-176.8515625" width="128" height="73"/>
+        <element name="Payment" positionX="131.6328125" positionY="-74.0546875" width="128" height="193"/>
+    </elements>
+</model>

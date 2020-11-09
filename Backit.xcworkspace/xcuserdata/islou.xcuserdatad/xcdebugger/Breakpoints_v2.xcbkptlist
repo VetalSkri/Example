@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "54D9DE00-4EF5-47C9-AE0B-63A659F9DC56"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "092D8ABE-43D6-4D94-9980-B41A1E886713"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ePN Cashback/Controller/VerifyLink/VerifyLink/VerifyLinkResultVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "407"
+            endingLineNumber = "407"
+            landmarkName = "setUpMainContainer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "092D8ABE-43D6-4D94-9980-B41A1E886713 - cff7b778a04b5ca4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Backit.VerifyLinkResultVC.setUpMainContainer() -&gt; ()"
+                  moduleName = "Backit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/islou/work/EPN/iOS_CashBackEPN/ePN%20Cashback/Controller/VerifyLink/VerifyLink/VerifyLinkResultVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "407"
+                  endingLineNumber = "407"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "092D8ABE-43D6-4D94-9980-B41A1E886713 - cff7b778a04b5ca4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Backit.VerifyLinkResultVC.setUpMainContainer() -&gt; ()"
+                  moduleName = "Backit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/islou/work/EPN/iOS_CashBackEPN/ePN%20Cashback/Controller/VerifyLink/VerifyLink/VerifyLinkResultVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "407"
+                  endingLineNumber = "407"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F2B56C0-3AE4-4C0D-9E2B-CA92C90A6DFD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ePN Cashback/Extensions/UIViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "setLargeTitleDisplayMode(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

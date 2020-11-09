@@ -1,0 +1,1081 @@
+/* 
+  Localizable.strings
+  CashBackEPN
+
+  Created by Ivan Nikitin on 27/08/2018.
+  Copyright © 2018 Ivan Nikitin. All rights reserved.
+*/
+
+//MARK: - Notifications
+
+"Notification_Snooze" = "Напомнить позже";
+"Notification_Delete" = "Удалить";
+
+//MARK: - Offers
+"shopsLabelTitle" = "Подборки";
+"favouriteLabel" = "Избранные \nмагазины";
+"offlineCBLabel" = "Кэшбэк \nза чеки";
+"offlineCBTitle" = "Кэшбэк за чеки";
+"AllCategoryTitleLabel" = "Все категории";
+"Add favourite offers" = "Добавляйте магазины в Избранное, чтобы иметь быстрый доступ к ним";
+"Cashback is not credited for this product" = "Кэшбэк зависит от страны доставки";
+"Cashback will appear in Orders section in 3-5 days" = "Кэшбэк появится в разделе заказы в течение 3-5 дней.";
+
+"All" = "Все";
+"All stores" = "Все магазины";
+"All offers" = "Все товары";
+"Name of shop" = "Магазин или товар";
+"shop search placeholder" = "Магазин";
+"Stores" = "Магазины";
+"Favorite" = "Избранные";
+"New" = "Новые";
+"See all" = "См. все";
+"Cashback up to" = "Кэшбэк до";
+"Cashback depends" = "Кэшбэк зависит от товара";
+"Average time of order confirmation" = "Среднее время подтверждения заказа";
+"Terms of purchase" = "Правила покупки";
+"Promo" = "Акции";
+"Coupons" = "Купоны";
+"Goods" = "Товары";
+"About stores" = "О магазине";
+"To the store" = "В магазин";
+"Show result" = "Показать результат";
+"Close" = "Закрыть";
+"Filter" = "Фильтр";
+"Reset" = "Сбросить";
+"Show stores" = "Показать магазины";
+"With increased cashback" = "С повышенным кэшбэком";
+"Sort" = "Сортировка";
+"By popularity" = "По популярности";
+"By alphabet" = "По алфавиту";
+"By descending cashback" = "По убыванию кэшбэка";
+"By newness" = "По новизне";
+
+"Category" = "Категории";
+"Auto" = "Авто";
+"Home appliance" = "Бытовая техника";
+"Everything for the office" = "Все для офиса";
+"Baby products" = "Детские товары";
+"The house and cottage" = "Дом и дача";
+"Leisure and entertainment" = "Досуг и развлечения";
+"Computer equipment" = "Компьютерная техника";
+"Beauty and health" = "Красота и здоровье";
+"Equipment" = "Оборудование";
+"Clothing, shoes and accessories" = "Одежда, обувь и аксессуары";
+"Gifts and Flowers" = "Подарки и цветы";
+"Products" = "Продукты";
+"Sport and outdoors" = "Спорт и отдых";
+"Services" = "Услуги";
+"Electronics" = "Электроника";
+
+"Learn more" = "Подробнее";
+"Increased cashback rate until" = "Кэшбэк повышен до ";
+"To buy with cashback, click on the store logo" = "Чтобы купить с кэшбэком, нажмите на логотип магазина";
+"Rules of the store" = "По кнопке «Подробнее» вы узнаете о правилах магазина";
+"Search results" = "Результаты поиска";
+"Cancel" = "Отменить";
+"No stores found" = "Магазинов не найдено";
+"No stores found on this request. Please select other filters." = "По данному запросу магазинов не найдено. Выберите другие фильтры.";
+"No stores found on this request. Please enter other title of store." = "По данному запросу магазинов не найдено. Введите название другого магазина.";
+"No stores found on this request. Please select other filters or enter other title of store." = "По данному запросу магазинов не найдено. Выберите другие фильтры или введите название другого магазина.";
+"Repeat" = "Повторить";
+"Rates" = "Ставки";
+"Empty cart in store" = "Очистите корзину в магазине";
+"Before activating the cashback, be sure to empty the cart" = "Перед активацией кэшбэка обязательно очистите корзину";
+"Disable ad blockers" = "Отключите блокировщики рекламы";
+"In case when you follow the AliExpress application error 404 appears" = "Если при переходе в приложение AliExpress выходит ошибка 404, необходимо выключить блокировщики рекламы, в т.ч. встроенные в антивирусы. Если вы скачали файл hosts, блокирующий рекламу, то необходимо удалить из него строки, касающиеся aliexpress.com и его поддоменов.";
+"Buy on the sites of stores" = "Покупайте на сайтах магазинов";
+"Mobile applications of all stores, except Aliexpress" = "Мобильные приложения всех магазинов, кроме Aliexpress, не дают возможности получить кэшбэк. Чтобы совершить покупки, перейдите из приложения Backit на сайт магазина в мобильном браузере.";
+"Hide" = "Скрыть";
+"Average waiting time for cashback" = "Среднее время ожидания кэшбэка";
+"Offer is disabled" = "Оффер отключен";
+"Due to AliExpress terms you get cashback" = "По правилам AliExpress кэшбэк будет начислен за этот товар только при доставке в следующие страны:";
+
+//MARK: - Orders
+
+"Orders" = "Мои заказы";
+"Order number" = "Номер заказа";
+"Don't you find your order?" = "Не нашли свой заказ?";
+"cashback_title" = "Кэшбэк";
+"price_title" = "Цена";
+"completed" = "Подтвержден";
+"hold" = "В обработке";
+"rejected" = "Отменен";
+"Date of transition to processing" = "Дата перехода в обработку";
+"Date of transition to the balance" = "Дата перехода на баланс";
+"If you did not find the order in the list, use the order search form in the mobile version of epn.bz" = "Если вы не нашли заказ в списке, воспользуйтесь формой поиска заказа в мобильной версии backit.me";
+"To mobile version" = "В моб. версию";
+"Date" = "Дата";
+"per week" = "за неделю";
+"per month" = "за месяц";
+"for 180 days" = "за 180 дней";
+"Select Period" = "Выбрать период";
+"Stores" = "Магазины";
+"Show all" = "Показать все";
+"Show results" = "Показать результат";
+"Selected: 180 days" = "Выбрано: 180 дней";
+"Apply" = "Применить";
+"Roll up" = "Свернуть";
+"We display orders for the last 180 days. You did not make purchases at the selected store during this period." = "Мы отображаем заказы за последние 180 дней. Вы не совершали покупки в выбранном магазине за этот период.";
+"No orders found on this request. Please select other filters." = "По данному запросу заказов не найдено. Выберите другие фильтры.";
+"Go shopping!" = "Вперед, за покупками!";
+"Order not found" = "Заказ не найден";
+"Your order is not listed. Use the order search form in the mobile version." = "Вашего заказа нет в списке. Воспользуйтесь формой поиска заказа в мобильной версии.";
+"Order compensation" = "Заказать компенсацию";
+"This page will show your orders for the last 180 days. Make a purchase and get cashback." = "На этой странице будут показаны ваши заказы за последние 180 дней. Совершите покупку и получите кэшбэк.";
+"Today" = "Сегодня";
+"Yesterday" = "Вчера";
+"appearceToProcessing" = "Появился в обработке";
+"transitionToBalance" = "Перешел на баланс";
+"transitionToBalanceError" = "Дата отмены";
+"text copy" = "Текст скопирован в буфер обмена";
+
+//MARK: - SignIn and SignUp
+"ErrorSignInFacebook" = "Мы не получили от Facebook вашу электронную почту; пожалуйста, добавьте в Facebook почту и откройте нам к ней доступ. После этого сможем вас авторизовать";
+"ErrorSocialAuthWithEmail" = "К одному из аккаунтов ePN уже привязана почта, с которой вы регистрируете новый аккаунт. Если вы хотите привязать этот аккаунт в соцсети к акаунту Backit, сделайте это в Профиле на сайте backit.me";
+"terms_of_service" = "Условия обслуживания";
+"privacy_policy" = "Политика конфиденциальности";
+"Are you sure to logout?" = "Вы уверены, что хотите выйти?";
+"Success attach" = "Аккаунт успешно привязан";
+"You can log in to ePN Cashback with this account" = "Вы можете войти в Backit с этой учетной записью";
+"Sign in with Facebook" = "Войти через Facebook";
+"Sign in with Vk" = "Войти через Vk";
+"Sign in with email" = "Войти через эл. почту";
+"Sign up with Facebook" = "Создать аккаунт через Facebook";
+"Sign up with VK" = "Создать аккаунт через VK";
+"Sign up with email" = "Создать аккаунт через эл. почту";
+"I don`t have an account, I want to sign up" = "У меня нет аккаунта, хочу <зарегистрироваться>";
+"I have an account, I want to sign in" = "У меня есть аккаунт, хочу <войти>";
+"Sign up" = "Создание аккаунта";
+"Next" = "Далее";
+"Ok" = "Ок";
+
+"Sign in" = "Войти";
+"Sign in title" = "Вход";
+"Don`t remember my password" = "Не могу вспомнить пароль";
+"Incorrect password" = "Неправильный пароль";
+"By creating an account, I accept Terms of Service" = "Нажимая кнопку Далее, вы соглашаетесь с <правилами сервиса>";
+"By creating an account, I accept Privacy Policy" = "Нажимая кнопку Далее, вы соглашаетесь с <политикой конфиденциальности>";
+"We haven't found an account, linked to this email. Do you want to creat new account?" = "Мы не нашли аккаунт, привязанный к этой эл. почте. Хотите <создать новый?>";
+"We haven't found an account" = "Мы не нашли аккаунт c такой почтой";
+"The password is too short. You need to add <n> more symbols" = "Слишком короткий пароль. Нужно добавить еще <n> символов";
+"The password is incorrect" = "Вы используете запрещенные символы";
+"One of ePN accounts is linked with this email. Do you want to sign in?" = "К одному из аккаунтов в Backit уже привязан такой email. Хотите <войти в этот аккаунт?>";
+"Do you want to sign in?" = "Аккаунт с такой почтой уже существует";
+"Enter your email" = "Введите вашу эл. почту";
+"Enter your password" = "Введите ваш пароль";
+"I have a promo code" = "У меня есть промо-код";
+"You are registered" = "Вы зарегистрированы";
+"Buy with a cashback, explore the potential of the application." = "Покупайте с кэшбэком, исследуйте возможности приложения.";
+"Let's go shopping!" = "Вперед, за покупками!";
+"Protect your account and access to your payments. To do this, confirm the registration." = "Защитите аккаунт и получите доступ к выплатам. Для этого <подтвердите регистрацию.>";
+"Link a social network account" = "Привяжите аккаунт социальной сети";
+//FIXME: - change text of this line
+"User with email. *** already exists. Link the Facebook account to ePN to sign in to the application without email and password." = "Пользователь с эл. почтой *** уже существует. Привяжите аккаунт к Backit, чтобы входить в приложение без ввода эл. почты и пароля.";
+"Link" = "Привязать";
+"Password recovery" = "Восстановление пароля";
+"Enter your email address." = "Введите вашу эл. почту";
+"Recover" = "Восстановить";
+"A password recovery email will be sent" = "Письмо для восстановления пароля будет отправлено";
+"For the safety and security of your funds, we will block payments for 72 hours. After 72 hours you can withdraw money again." = "Для безопасности и сохранности ваших средств, мы заблокируем выплаты на 72 часа. Через 72 часа вы сможете снова выводить деньги.";
+"Send a mail" = "Отправить письмо";
+"Email's been sent" = "Письмо отправлено";
+"We sent a email to *** for password recovery." = "Мы отправили письмо на *** для восстановления пароля.";
+"View" = "Посмотреть";
+"Create a new password" = "Создание нового пароля";
+"Create a new password and confirm it." = "Придумайте новый пароль и подтвердите его.";
+"New password" = "Новый пароль";
+"Email" = "Электронная почта";
+"Password" = "Пароль";
+"Create" = "Создать";
+"Successfully" = "Успешно";
+"The new password was successfully created. Log in to the system" = "Новый пароль успешно создан. Войдите в систему";
+"Enter a promo code" = "Введите промо-код";
+"Promo code" = "Промо-код";
+"Add" = "Добавить";
+"Where can I get a promo code?" = "Где получить промо-код?";
+"Promo code can be obtained from our partners or in social media: Vkontakte, Facebook, Instagram." = "Промо-код можно получить от наших партнеров или в лентах соц. сетей: Вконтакте, Фейсбуке, Инстаграме.";
+"Promo code entered" = "Промо-код введен";
+"The program requests permission to send mailings to email" = "Программа запрашивает разрешение на отправку рассылок на эл.почту";
+"Newsletters will be informed about promotions, competitions, adding new offers. You can change the consent in the settings section at any time." = "Рассылки будут информировать об акциях, конкурсах, добавлении новых офферов. Вы cможете изменить согласие в разделе настроек в любой момент.";
+"Allow" = "Разрешить";
+"Dismiss" = "Отклонить";
+"Enter the code from the image and confirm that you are not a robot." = "Введите код с картинки и подтвердите, что вы не робот";
+"Code" = "Код";
+"Send" = "Отправить";
+"The code does not match the code on the picture" = "Код не совпадает с кодом на картинке";
+"Password is less than 8 characters" = "Пароль меньше 8 символов";
+"Average Password" = "Средний пароль";
+"Good Password" = "Хороший пароль";
+"Excellent password" = "Отличный пароль";
+"You can make the password more reliable: add a large letter" = "Можно сделать пароль надежнее: добавить большую букву";
+"If you want to strengthen the password, add a symbol" = "Если хотите усилить пароль, добавьте символ";
+"If you want to strengthen the password, add a symbol and a number" = "Если хотите усилить пароль, добавьте символ и цифру";
+"Login with" = "Войти через сервисы";
+"Sign up with" = "Создать аккаунт через сервисы";
+"or" = "или";
+"Account with this email already exists" = "Аккаунт с таким email уже существует";
+"Promo code not exist" = "Промо-код не существует";
+"Promocode not found" = "Промо-код не найден";
+"Incorrect promocode" = "Некорректный промокод";
+"Promocode has not yet begun" = "Промо-код еще не начал действовать";
+//MARK: - PasswordValidator
+
+"The password is too short" = "Пароль меньше 8 символов";
+"Normal password" = "Средний пароль";
+"Good password" = "Хороший пароль";
+"Excellent password" = "Отличный пароль";
+
+//MARK: - Errors
+"Your account type doesn't support promo-codes!" = "Для аккаунта вашего типа активация промо-кодов невозможна!";
+"Promo code can't be empty!" = "Промо-код не может быть пуст!";
+"You already activated this promo code!" = "Вы уже активировали этот промо-код!";
+"Number of activations for this code was exhausted!" = "Для этого промо-кода исчерпано возможное количество активаций!";
+"This promo code was expired" = "Срок возможной активации для этого промо-кода истёк!";
+
+
+//MARK: - Error message from server
+
+"Required api version" = "Required api version";
+"Required grand type" = "Required grand type";
+"Unsupported grant type" = "Unsupported grant type";
+"Wrong url for cut" = "Wrong url for cut";
+"Wrong confirmation code" = "Неверный код подтверждения";
+"Required fields" = "Заполнены не все поля";
+"Wrong client id" = "Wrong client id";
+"Wrong username or password" = "Неверный логин или пароль";
+"Wrong refresh token" = "Не удалось получить верный токен доступа для вас. Попробуйте еще раз, пожалуйста.";
+"Wrong email format" = "Некорректный формат email";
+"Wrong password format" = "Некорректный формат пароля";
+"Email already exists" = "Аккаунт с таким email уже существует";
+"Invalid ssid token" = "Invalid ssid token";
+"Required client id" = "Required client id";
+"Wrong input params" = "Wrong input params";
+"Wrong state parameter" = "Wrong state parameter";
+"Email not found" = "Аккаунт с таким email не найден";
+"Wrong currency format" = "Wrong currency format";
+"Purse not found" = "Кошелек не найден";
+"Batch request parsed body error" = "Batch request parsed body error";
+"Status error purse" = "Некорректный формат кошелька. Проверьте правильность ввода данных и повторите попытку";
+"Status error type" = "Status error type";
+"Status error purse json" = "Status error purse json";
+"Status error purse exist" = "Этот кошелек уже добавлен";
+"Promocode not found" = "Промокод не найден";
+"Promocode expired" = "Срок действия промокода истёк";
+"Promocode has not yet begun" = "Период активации промокода еще не наступил";
+"Promocode over limit" = "У промокода закончилось количество активаций";
+"Promocode already activated" = "Вы уже активировали этот промокод";
+"Social network authorization error email already exists" = "Аккаунт с таким email уже существует. Вы можете авторизоваться в нем и привязать аккаунт соцсети к аккаунту Backit";
+"Promocode wrong user role" = "Промокод предназначен для аккаунта другого типа";
+"Promocode denied by acl" = "Promocode denied by acl";
+"Send code limited" = "Send code limited";
+"Send confirmation timeout minutes" = "Подождите минуту перед новым запросом";
+"Send confirmation code timeout days" = "Вы запросили больше 20 сообщений. Попробуйте снова через сутки";
+"Sms code not exist" = "Неверный смс-код";
+"Check code limited" = "Check code limited";
+"Request is limited" = "Request is limited";
+"Confirmation send timeout" = "Пожалуйста, попробуйте позже";
+"Email already confirmed" = "Email уже подтвержден";
+"Phones are equal" = "Номера телефонов не должны совпадать";
+"Current phone not correct" = "Вы ввели не тот номер телефона, который сейчас привязан к вашему аккаунту";
+"Phone not confirmed" = "Номер телефона не подтвержден";
+"Wrong sso token" = "Не удалось получить верный токен доступа для вас. Попробуйте еще раз, пожалуйста";
+"Tracking number not found" = "Номер отслеживания не найден";
+"Tracking number user subscribe" = "Tracking number user subscribe";
+"Grant type not allowed" = "Grant type not allowed";
+"Unauthorized invalid token" = "Не удалось получить верный токен доступа для вас. Попробуйте еще раз, пожалуйста";
+"Unauthorized invalid hash" = "Запросите письмо для восстановления пароля повторно.";
+"Password not change" = "Пароль не изменен";
+"Acl role not allowed for request" = "Ваш аккаунт не подходит для использования кэшбэк-приложения";
+"Csrf invalid or expired" = "Csrf invalid or expired";
+"Acl user status not allowed" = "Acl user status not allowed";
+"Acl user project not allowed" = "Acl user project not allowed";
+"Current client ip not equals token payload client ip" = "Current client ip not equals token payload client ip";
+"Acl user id method not allowed" = "Acl user id method not allowed";
+"Request handler not found" = "Request handler not found";
+"Validation not passed" = "Нельзя добавить больше 100 магазинов в Избранное";
+"Validation unknown error" = "Не удалось получить данные. Попробуйте еще раз";
+"Validation amount not correct" = "Validation amount not correct";
+"Validation limit request exceeded" = "Validation limit request exceeded";
+"Validation not correct purse for currency" = "Validation not correct purse for currency";
+"Validation payout available with larger amount" = "Validation payout available with larger amount";
+"Validation purse not found" = "Кошелек не найден";
+"Validation payment is blocked" = "Вы меняли данные: для безопасности выплаты временно заблокированы";
+"Validation amount balance exceeded" = "Validation amount balance exceeded";
+"Validation user status banned" = "Validation user status banned";
+"Validation wiretransfer add address" = "Validation wiretransfer add address";
+"Validation wiretransfer contract signed" = "Validation wiretransfer contract signed";
+"Validation payment is hold" = "Выплаты заблокированы: обратитесь в техподдержку";
+"Validation out of range date" = "Validation out of range date";
+"Validation invalid goods or store link" = "Validation invalid goods or store link";
+"Too many requests" = "Ошибка. Пожалуйста, сделайте паузу и попробуйте еще раз позже";
+"Need captcha" = "Введите капчу";
+"User is deleting" = "Аккаунт, который вы пытаетесь использовать, удален";
+"Wrong captcha" = "Неверно введен код с изображения";
+"Missing linked captcha key" = "Missing linked captcha key";
+"Undefined server error" = "Ошибка на сервере: пожалуйста, попробуйте повторить действие позже";
+"Server error while creating access token" = "Ошибка на сервере: пожалуйста, попробуйте повторить действие позже";
+"Error while creating new user" = "Не удалось создать аккаунт. Попробуйте еще раз";
+"Server error while creating refresh token" = "Не удалось получить верный токен доступа для вас. Попробуйте еще раз, пожалуйста";
+"Server error while creating social network auth" = "Не получилось авторизовать вас через соцсеть: пожалуйста, попробуйте еще раз";
+"Undefined service error" = "Неизвестная ошибка. Пожалуйста, выполните действие еще раз или обратитесь в техподдержку";
+"Get profile from social network error" = "Не удалось получить информацию о вашем аккаунте в соцсети. Выполните действие еще раз";
+"Link social profile error" = "Эта учетная запись связана с другим аккаунтом";
+"Error while creating ssid token" = "Не удалось получить верный токен доступа для вас. Попробуйте еще раз, пожалуйста";
+"Password recovery server error" = "Не получилось восстановить пароль. Попробуйте еще раз";
+"Cant lock user payments" = "Cant lock user payments";
+"Cant update user password" = "Не получилось обновить пароль. Попробуйте еще раз или обратитесь в техподдержку";
+"Sending confirmation email error" = "Не удалось отправить письмо на ваш email для подтверждения. Попробуйте еще раз";
+"Subscribe user error" = "Subscribe user error";
+"Cant add new hash for short url" = "Cant add new hash for short url";
+"Server error while unlink social network for user" = "Не удалось отвязать аккаунт соцсети. Попробуйте еще раз";
+"Cant get balance" = "Не удалось загрузить ваш баланс. Попробуйте посмотреть его чуть позже";
+"Cant get user purses" = "Не удалось загрузить список ваших кошельков. Попробуйте посмотреть его чуть позже";
+"Cant get confirm purse" = "Не удалось подтвердить кошелек";
+"Cant remove purse" = "Не удалось удалить кошелек. Попробуйте еще раз";
+"Cant add new purse" = "Не удалось добавить кошелек. Попробуйте еще раз";
+"Incorrect batch response" = "Incorrect batch response";
+"Cant make purse charity" = "Не удалось добавить кошелек. Попробуйте еще раз";
+"Purse charity is not exist" = "Purse charity is not exist";
+"Promocode activation failed" = "Не удалось активировать промокод. Попробуйте еще раз";
+"Acquire lock error" = "Acquire lock error";
+"Current password not correct" = "Неверный старый пароль";
+"Password change is blocked" = "Вы не можете изменить пароль в настоящий момент";
+"Passwords not equal" = "Пароли не совпадают";
+"Password not edited" = "Не удалось изменить пароль. Попробуйте еще раз";
+"Confirmation impossible" = "Невозможно подтвердить";
+"Profile not edited" = "Данные профиля не изменены. Попробуйте еще раз";
+"Send email retry limited" = "Мы отправили максимально возможное количество писем на ваш email на настоящий момент. Попробуйте позже. Если не можете найти писем от нас, проверьте папку спам";
+"Phone already confirmed" = "Номер телефона уже подтвержден";
+"Phone not confirmed by sms" = "Номер телефона не подтвержден. Подтвердите";
+"Active code not exist" = "Код из смс истёк или не отправлен. Нужно получить код заново";
+"Account got deleted" = "Этот аккаунт удален";
+"Avatar not found" = "Аватар не найден";
+"You try to order payout, that bigger than maximum payout limit for this wallet type" = "Вы пытаетесь заказать выплату больше максимального размера для данного типа кошелька
+";
+"Price history is empty" = "Нет данных по товару";
+"Unexpected response from server" = "Неожиданный ответ от сервера";
+"Wrong new password format" = "Некорректный формат нового пароля";
+
+//MARK: - Date
+"Sunday" = "Вс";
+"Monday" = "Пн";
+"Tuesday" = "Вт";
+"Wednesday" = "Ср";
+"Thuesday" = "Чт";
+"Friday" = "Пт";
+"Saturday" = "Сб";
+
+//MARK: - Account
+"Account" = "Аккаунт";
+"Payment history" = "История выплат";
+"CB Links" = "Кэшбэк-ссылка и динамика цены";
+"Promocodes" = "Промокоды";
+"Invite Friends" = "Пригласить друзей";
+"Support" = "Техподдержка";
+"Exit" = "Выйти";
+"Cancel" = "Отмена";
+
+"Order Payment" = "Заказать выплату";
+"Try again" = "Попробовать снова";
+"Available" = "Доступно";
+"In Hold" = "В обработке";
+"InfoNoBalance" = "Здесь можно смотреть баланс и выводить деньги. Для этого совершите первую покупку.";
+"ErrorInfoBalance" = "Не удалось загрузить балансы. Проверьте подключение к интернету или загрузите раздел снова.";
+
+//MARK: - Payment
+"The minimum withdrawal amount on the chosen wallet is" = "Минимальная сумма вывода на выбранный кошелек";
+"The min. withdrawal amount is" = "Мин. сумма вывода";
+"The min. withdrawal amount from" = "Мин. сумма вывода от";
+"Choose another balance or wallet" = "Выберите другой баланс или кошелек";
+"Without commission" = "Без комиссии";
+"Сommission" = "Комиссия";
+"Withdraw" = "Вывести";
+"Where to transfer money to?" = "Куда выведем деньги?";
+"The payout is successfully ordered" = "Выплата успешно заказана";
+"To" = "на";
+"Currency conversion" = "Конвертация валют";
+"Currency conversion Info" = "В случае, если валюта карты не совпадает с валютой перевода (EUR либо USD), будет произведена конвертация по курсу банка-эмитента карты получателя.";
+"Currency conversion Info Ukraine V2" = "Если вы заказываете выплату не с долларового счета, сначала произойдет конвертация в доллары по курсу ЦБ РФ на текущую дату. После этого доллары конвертируются в гривны.";
+"Minimum amount" = "Лимиты";
+"Minimum one-time payment" = "Минимальный разовый платеж: ";
+"Maximum one-time payment" = " максимальный: 2000 $, 2000 €.";
+"Maximum one-time payment Ukraine V2" = " максимальный: 500 $.";
+"Term for transferring funds" = "Срок перечисления средств";
+"Term for transferring funds Info Ukrain V2" = "Срок зачисления платежей составляет от 1 до 5 рабочих дней.";
+"Term for transferring funds Info" = "Срок зачисления платежей составляет от 1 до 3 рабочих дней.";
+
+//MARK: - PaymentsHistory
+"Amount of payment" = "Сумма выплаты";
+"On this page the list of the payouts that have been ordered will be displayed." = "На этой странице будет отображаться список заказанных выплат";
+"Payment_completed" = "Подтверждена";
+"Payment_hold" = "В обработке";
+"Payment_rejected" = "Отменена";
+"Payment_banned" = "Заблокирована";
+"CharityTitle" = "Благотворительность";
+"CharitySubitle" = "Фонд Хабенского";
+
+//MARK: - Offline Cashback
+"SpecialReceiptLabel" = "Спецпредложения";
+"ScanReceipt" = "Сканировать чек";
+"Products or store" = "Товар или магазин";
+"OfflineCashback" = "Чеки";
+"Date and time of purchase" = "Дата и время покупки";
+"Amount of receipt" = "Сумма чека";
+"Fiscal memory device (\"ФН\")" = "ФН";
+"Fiscal documents (\"ФД\")" = "ФД";
+"Fiscal code of documents (\"ФП\" or \"ФПД\")" = "ФП или ФПД";
+"Specified at the beginning or at the end of receipt" = "Указаны в начале или в конце чека";
+"Specify cost of the purchase with kopecks" = "Укажите сумму покупки с копейками";
+"16 numbers specified at the beginning or at the end of receipt" = "16 цифр, в начале или конце чека";
+"3-5 numbers specified at the end of receipt" = "Обычно 3-5 цифр, в конце чека";
+"8-10 numbers specified at the end of receipt" = "Обычно 8-10 цифр, в конце чека";
+"The field shoudn't be empty" = "Поле не должно быть пустым";
+"Your receipt may look different" = "Ваш чек может выглядеть по-другому";
+"How to find the necessary data on the receipt?" = "Как найти данные в чеке?";
+"We cannot accept this receipt for processing." = "Мы не можем принять этот чек в обработку";
+"Point the camera at the QR code and scan it." = "Наведите камеру на QR-код и сканируйте его";
+"Failed to scan a QR code?" = "Не удалось сканировать QR-код?";
+"Enter data manually" = "Ввести данные вручную";
+"An unexpected error has occurred." = "Произошла непредвиденная ошибка";
+"noneCB" = "Предложение не найдено";
+"on_duplicateCB" = "Этот чек уже был добавлен вами ранее";
+"on_duplicate2CB" = "Этот чек уже был добавлен ранее другим пользователем";
+"on_limitedCB" = "Вы уже отправили максимальное количество чеков на настоящий момент. Посмотрите условия предложения и попробуйте позже";
+"on_invalidCB" = "По чеку получены некорректные данные. Попробуйте сканировать чек еще раз";
+"on_incompat_1CB" = "Этот чек уже сканировали — в этом предложении использовать такой чек еще раз уже нельзя";
+"on_incompat_2CB" = "Этот чек уже использовался, для получения кэшбэка за другое предложение";
+"offCB" = "Предложение, за которое вы хотите получить кэшбэк, уже отключено";
+"on_okCB" = "Успешно! Мы приняли чек в обработку";
+"Conditions" = "Условия";
+"SuccessScanTitle" = "Ваш чек успешно загружен";
+"SuccessScanText" = "Чек появится в разделе «Мои заказы» в течение часа\n\nКэшбэк перейдет на баланс в течение 30 дней";
+"Scan the receipt" = "Сканировать чек";
+"Average time of waiting cashback" = "Cреднее время ожидания кэшбэка";
+"Undefined" = "Не определено";
+"How to find data in a check?" = "Как найти данные в чеке?";
+"Point the camera at the QR-code" = "Наведите камеру на\nQR-код";
+"Enter data" = "Ввести данные";
+"Сamera access" = "Доступ к камере!";
+"Allow access to the camera to scan checks" = "Чтобы сканировать чеки, разрешите доступ к камере";
+"Entering receipt data" = "Ввод данных чека";
+
+//MARK: - Stocks
+"Stocks" = "Акции";
+"Product name" = "Название товара";
+"product search placeholder" = "Товар";
+"Increased cashback" = "Повышенный кэшбэк";
+"Increased cashback 2 lines" = "Повышенный\nкэшбэк";
+"Price" = "Цена";
+"Cashback" = "Кэшбэк";
+"Cashback rates" = "Ставки кэшбэка";
+"Until the end of promotion" = "До конца акции:";
+"Buy with cashback" = "Купить с кэшбэком";
+"Send your friends a cashback link" = "Отправьте друзьям кэшбэк-ссылку";
+"Tell your friends about a product and get cashback for them purchases. For that, share the cashback link" = "Расскажите о товаре друзьям и получайте кэшбэк за их покупки. Для этого поделитесь кэшбэк-ссылкой";
+"Cashback link" = "Кэшбэк ссылка";
+"Price dynamics" = "Динамика цены";
+"In order to find out the exact price for some period, choose a point on the chart and click on it" = "Чтобы узнать точную цену за период, выберите точку на графике и нажмите на нее";
+"by cashback rate" = "По проценту кэшбэка";
+"by product price" = "По количеству заказов";
+"by novelty" = "По новизне";
+"No products have been found" = "Товаров не найдено";
+"Nothing here yet" = "Тут пока ничего нет";
+"Nothing was found" = "Ничего не нашлось";
+"No products have been found for this search. Redraft it." = "По данному запросу товаров не найдено. Переформулируйте запрос.";
+"No products with increased cashback have been found. Please get back later." = "Товаров с повышенным кэшбэком не найдено. Вернитесь в раздел позднее.";
+"HotOffer" = "Горящее предложение";
+"voting winners" = "Победители голосования";
+
+//MARK: - InviteFriends
+
+"ErrorInfoStatsReferrals" = "Не удалось загрузить статистику.";
+"Invite your friends" = "Пригласить друзей";
+"Share with a link and get up" = "Поделитесь ссылкой и получайте до 80% от нашей прибыли c покупок друга";
+"Terms" = "Условия";
+"Statistics" = "Статистика";
+"Learn more" = "Подробнее";
+"Registration" = "Регистраций";
+"Income" = "Доход";
+"In processing" = "В обработке";
+"Here you can see the statistics by " = "Здесь появится статистика о количестве приведенных друзей и ваших доходах";
+
+//MARK: - Promocodes
+"Check" = "Проверить";
+"ActivatedPromocode" = "Промокод активирован";
+"NotActivatedPromocode" = "Что-то пошло не так. Попробуйте активировать промокод снова.";
+"PromocodeResult" = "Результат";
+"ActivationAvailable" = "Активация возможна";
+"ActivationTimePromocode" = "Период активации";
+"ValidityPromocode" = "Срок действия";
+"ActivatePromocode" = "Активировать";
+"CheckInfoAboutPromo" = "Проверьте информацию\nо промокоде и активируйте его";
+"EmptyPromocodePage" = "Здесь будет показана информация о промокодах, которые вы активировали";
+"Promo code already activated" = "Промокод уже активирован";
+"dateFrom" = "с";
+"dateTo" = "по";
+"expiredPromo" = "Истек";
+"expiredAt" = "Истекает в";
+"untilPromo" = "до";
+"cashBackUpTo" = "до";
+
+
+//MARK: - Link Validate
+"VerifyLinkResult" = "Результат";
+"Insert a link" = "Вставьте ссылку на товар, чтобы узнать, можно ли получить кэшбэк за его покупку и как изменялась цена на него";
+"Link to item" = "Ссылка на товар";
+"Cashback link and price dynamics" = "Кэшбэк-ссылка и динамика цены";
+"Link Price dynamics" = "Динамика цены";
+"You will receive cashback" = "Вы получите кэшбэк";
+"Buy with cashback" = "Купить с кэшбэком";
+"To the store" = "В магазин";
+"Cashback rate depends on item" = "Процент кэшбэка зависит от товара";
+"Your cashback depends on the country of delivery" = "Ваш кэшбэк зависит от страны доставки";
+"In order to find out the exact price for some period, choose a point on the chart and click on it" = "Чтобы узнать точную цену за период, выберите точку на графике и нажмите на нее";
+"No data on item" = "Нет данных по товару";
+"It's not available for your account type to check a link" = "Проверка ссылки недоступна для вашего типа аккаунта";
+"Price today" = "Цена сегодня";
+"MinPrice" = "Мин. цена";
+"MaxPrice" = "Макс. цена";
+"DynamicInfo" = "Нажмите на точку на графике: покажем, как поменялась цена в этот день";
+"dynamic_week" = "неделя";
+"dynamic_two_weeks" = "2 недели";
+"dynamic_month" = "месяц";
+"dynamic_two_months" = "2 месяца";
+"dynamic_invalid_link_title" = "Вы ввели некорректную ссылку или по этой ссылке нет кэшбэка";
+"dynamic_invalid_link_description" = "Попробуйте снова: вставьте новую ссылку или отредактируйте текущую";
+"dynamic_no_data" = "Нет данных по товару";
+"dynamic_info_message" = "Динамика цены собирается по минимальной комплектации товара";
+"Non-affiliated product" = "Неаффилиатный товар";
+"Product:" = "Товар:";
+"Cashback in Georgia and the CIS" = "Кэшбэк в СНГ и Грузии";
+"Cashback (except Georgia and the CIS)" = "Кэшбэк (кроме СНГ и Грузии)";
+"Cashback (except CIS)" = "(Кэшбэк кроме СНГ)";
+"Cashback in CIS" = "Кэшбэк в СНГ";
+
+"The seller does not participate in the affiliate program." = "Продавец не участвует в партнерской программе. Поэтому по правилам AliExpress кэшбэк не будет начислен за этот товар при доставке в следующие страны:";
+"You cashback is" = "Ваш кэшбэк";
+"Affiliated product" = "Аффилиатный товар";
+"flag_Russia" = "Россия";
+"flag_Armenia" = "Армения";
+"flag_Azerbaijan" = "Азербайджан";
+"flag_Belarus" = "Беларусь";
+"flag_Georgia" = "Грузия";
+"flag_Kyrgyzstan" = "Киргизия";
+"flag_Kazakhstan" = "Казахстан";
+"flag_Tajikistan" = "Таджикистан";
+"flag_Turkmenistan" = "Туркменистан";
+"flag_Moldova" = "Молдавия";
+"flag_Uzbekistan" = "Узбекистан";
+//MARK: - FAQ
+"HelpFAQ" = "Помощь";
+"Part" = "Часть";
+"EnterQuestion" = "Введите вопрос";
+"FAQ_ImportantThings" = "Важные моменты";
+"FAQ_whatIsCB" = "Что такое кэшбэк?";
+"FAQ_howToBuy" = "Как купить с кэшбэком?";
+"FAQ_whatToDoAfterBuy" = "Что делать после покупки?";
+"FAQ_howOrderPayments" = "Как вывести кэшбэк?";
+"FAQ_onBoarding" = "Знакомство с приложением";
+"FAQ_rules" = "Правила покупки";
+"FAQ_bottomInfo" = "Не нашли ответ на свой вопрос?";
+"FAQ_buttonToSupport" = "Обратиться в техподдержку";
+
+//
+"FAQ_HowOrderPayments_main1" = "Откройте раздел «Аккаунт» и нажмите на кнопку «Заказать выплату»";
+"FAQ_HowOrderPayments_main2" = "Вы будете направлены на страницу сайта backit.me";
+"FAQ_HowOrderPayments_main3" = "Выберите баланс, с которого вы хотите вывести кэшбэк. Добавьте и подтвердите кошелек. Введите сумму и выводите деньги.";
+
+"FAQ_WhatToDo_main1" = "Вы купили товар через наш кэшбэк-сервис: в разделе «Мои заказы» появляется новый заказ.";
+"FAQ_WhatToDo_main2" = "Вывести кэшбэк можно через 6-8 недель после покупки: это время нужно магазину и нашему сервису, чтобы подтвердить кэшбэк. В это время кэшбэк находится на отдельном балансе «В обработке».";
+"FAQ_WhatToDo_main3" = "Подтверждаем кэшбэк - и он переходит на баланс «Доступно».";
+
+"FAQ_WhatIsCb_main1" = "Кэшбэк(Cashback) — это возврат покупателю части стоимости товара после покупки";
+"FAQ_WhatIsCb_main2" = "Мы рассказываем вам о преимуществах наших магазинов-партнеров";
+"FAQ_WhatIsCb_main3" = "За каждую покупку, которую вы делаете, магазин платит нам вознаграждение";
+"FAQ_WhatIsCb_main4" = "Мы делимся этим вознаграждением с вами  — это и есть ваш кэшбэк";
+
+"FAQ_Rules_head1" = "Очистите корзину в магазине";
+"FAQ_Rules_head2" = "Отключите блокировщики рекламы";
+"FAQ_Rules_head3" = "Используйте чистый Android";
+"FAQ_Rules_head4" = "Покупайте на сайтах магазинов";
+"FAQ_Rules_main1" = "Перед активацией кэшбэка обязательно очистите корзину";
+"FAQ_Rules_main2" = "Если при переходе в приложение AliExpress выходит ошибка 404, необходимо выключить блокировщики рекламы, в т.ч. встроенные в антивирусы. Если вы скачали файл hosts, блокирующий рекламу, то необходимо удалить из него строки, касающиеся aliexpress.com и его поддоменов.";
+"FAQ_Rules_main3" = "Мы не гарантируем стабильную работу в различных модификациях Android (MIUI, Yandex.Kit, ColorOS, CyanogenMod и т.д.) и на устройствах с правами root (\"рутованные\").";
+"FAQ_Rules_main4" = "Мобильные приложения всех магазинов, кроме Aliexpress, не дают возможности получить кэшбэк. Чтобы совершить покупки, перейдите из приложения Backit на сайт магазина в мобильном браузере.";
+
+"FAQ_Choose_store_head" = "Выберите магазин и совершите покупку";
+"FAQ_Choose_store_and_click_on_it" = "Выберите магазин и нажмите на него. Покупаете товар после перехода из нашего приложения — получаете кэшбэк.";
+"FAQ_BeShureToGetCashback_head" = "Проверьте, что вы получили кэшбэк";
+"FAQ_OpenTheSection" = "Откройте раздел «Мои заказы»: заказ должен появиться в списке";
+"FAQ_Withdraw_cashback" = "Выведите кэшбэк";
+"FAQ_WhenTheOrderStatusChanged" = "Когда статус заказа меняется на «Подвтержден», кэшбэк попадает на доступный баланс. Выведите кэшбэк на банковскую карту, электронный кошелек или номер телефона.";
+
+"FAQ_Welcome" = "Приветствуем!";
+"FAQ_OurAppWillHelp" = "Наше приложение поможет извлечь максимум выгоды из покупок в интернете и в обычных магазинах";
+"FAQ_Skip" = "Пропустить";
+"FAQ_Good" = "Хорошо";
+"FAQ_WePayCashback" = "Мы выплачиваем кэшбэк за покупки в интернет-магазинах через наше приложение...";
+"FAQ_GetBackAPart" = "Часть денег вернется к вам обратно через несколько недель после покупки";
+"FAQ_Ok" = "Понятно";
+"FAQ_CashbackForReceipts" = "...и кэшбэк за чеки из обычных магазинов";
+"FAQ_SearchForOffers" = "Ищите предложения для обычных магазинов в специальном разделе. Совершайте покупки, сканируйте QR-код с чеков и получайте кэшбэк";
+"FAQ_WhatElse" = "Что еще?";
+"FAQ_CollectTheBestOffers" = "А еще собираем для вас лучшие предложения";
+"FAQ_PromotionsSection" = "В разделе «Акции» — товары с самым высоким кэшбэком. В наших соцсетях и через пуш-уведомления — промокоды на повышенный кэшбэк.";
+"FAQ_Register" = "Я с Вами";
+
+"FAQ_How it works?" = "Как это работает?";
+"FAQ_Send a personal link to your friends" = "Отправьте персональную ссылку друзьям и знакомым";
+"FAQ_A friend registers on your personal link" = "Друг регистрируется по вашей персональной ссылке. Теперь за каждую покупку друга через Backit вы получаете прибыль: процент от нашей прибыли или процент за кэшбэк друга.";
+"FAQ_When a friend buys with a cashback" = "Когда друг покупает с кэшбэком, начисляем вам прибыль на баланс «В обработке».";
+"FAQ_On the Invite Friends page" = "На странице «Пригласить друзей» показываем доход в обработке от покупок приглашенных друзей. В «Аккаунте» на балансе «В обработке» показываем сумму вашего кэшбэка в обработке и прибыль от покупки друзей.";
+"FAQ_In processing income may be different to the value" = "Доход «В обработке» может не совпадать со значением в разделе «Аккаунт»: обновление этого значения происходит раз в сутки, в 11:00 по московскому времени";
+"FAQ_When we confirm income" = "Когда мы подтверждаем доход, он переходит на баланс «Доступно».";
+"FAQ_All the income you have" = "На странице «Пригласить друга» отображаем весь доход, который вы заработали с покупок друзей, а мы подтвердили.";
+"FAQ_In the Account we add the confirmed income" = "В «Аккаунте» подтвержденный доход прибавляем к вашему кэшбэку и показываем всё вместе на балансе «Доступно». Когда вы выводите деньги с баланса, мы вычитаем их с баланса. Но на странице «Пригласить друзей» деньги остаются в графе «Доход» для статистики.";
+"FAQ_registration" = "Регистраций";
+"FAQ_inProcessing" = "В обработке";
+"FAQ_income" = "Доход";
+
+
+//Offline cashback questions - answers
+"FAQ_QuestionsAndAnswers" = "Вопросы и ответы";
+"FAQ_CameraDoesntDetect" = "Камера не распознает QR-код с чека";
+"FAQ_IfTheCameraDoesntDetect" = "Если камера не распознает QR-код с чека, за который вы хотите получить кэшбэк, воспользуйтесь ручным вводом (кнопка «Ввести данные вручную» в окне камеры).";
+"FAQ_HowDoIKnow" = "Как узнать точный процент кэшбэка, который я получу за чек?";
+"FAQ_ClickTheButtonConditions" = "Нажмите на кнопку Условия: откроется страница сайта backit.me, на которой отображаются все ставки кэшбэка для предложения, и условия, при которых кэшбэк будет засчитан";
+"FAQ_WhyHasTheOrderCanceled" = "Почему заказ отменен?";
+"FAQ_ReceiptWithTheGoods" = "Скорее всего чек с товаром не подходит под предложение, которое вы выбрали, или нарушено одно из условий получения кэшбэка данного товара или магазина. Если это не так, обратитесь в техподдержку";
+"FAQ_WhyTheOrderProcessingSoLong" = "Почему заказ долго в обработке?";
+"FAQ_ItTakesFromSeveralDays" = "Требуется от нескольких дней до пары месяцев, чтобы подтвердить чек; если заказ находится в обработке больше двух месяцев, обратитесь в техподдержку";
+"How to get cashback?" = "Как получить кэшбэк?";
+"Scan a QR code and get cashback for all offers on the receipt" = "Сканируйте QR-код и получайте кэшбэк за все предложения в чеке!\nДля товаров из Спецпредложения чек нужно сканировать отдельно.";
+"Choose a product and get cashback" = "Выберите товар - получите кэшбэк";
+"Choose a special offer and get cashback only for this product" = "Выберите спецпредложение и получите кэшбэк только за этот товар";
+
+//Webmaster FAQ
+"FAQ_yourAccountNotValid" = "Ваш аккаунт не подходит для входа в кэшбэк-приложение";
+"FAQ_whyMyAccountNotSuitable" = "Почему мой аккаунт не подходит для приложения?";
+"FAQ_yourRegisterWebmasterAccount" = "Вероятнее всего, вы зарегистрировали аккаунт вебмастера. Это произошло случайно или вы зарегистрировались как вебмастер сознательно.";
+"FAQ_whyBeforeWork" = "Почему раньше работало, а сейчас нет?";
+"FAQ_allStoreAddedAutomatically" = "C июня 2019 года все магазины в приложение Backit добавляются автоматически. К сожалению, мы не смогли бы выполнить это обновление, оставив вебмастерам доступ в кэшбэк-приложение.";
+"FAQ_whatToDoIfWebmaster" = "Что делать, если аккаунт вебмастера зарегистрирован по ошибке, и я просто покупаю с кэшбэком (или я считаю, что у меня кэшбэк-аккаунт)?";
+"FAQ_registerNewAccount" = "Зарегистрируйте новый кэшбэк-аккаунт";
+"FAQ_whatToDoIfIWorkAsWebmaster" = "Что делать, если я работаю как вебмастер и хочу кэшбэчить и использовать приложение, чтобы смотреть баланс?";
+"FAQ_ourTeam" = "Наша команда начала разработку отдельного приложения для вебмастеров: пока это бета-версия для Android OS, в которой доступен просмотр баланса. Мы будем рады, если вы расскажете, что вы хотели бы видеть в приложении для вебмастеров, какие функции были бы полезны: для этого напишите на affapp@epn.bz \nЕсли вы хотите использовать кэшбэк-сервис, зарегистрируйте кэшбэк-аккаунт";
+
+
+
+//MARK: - Settings
+"Settings_Title" = "Настройки";
+"Settings_EditProfile" = "Редактировать профиль";
+"Settings_AppSettings" = "Настройки приложения";
+"Settings_About" = "О приложении";
+"Settings_DeleteAccount" = "Удалить аккаунт";
+"Settings_PushNotification" = "Push-уведомления";
+"Settings_SendPush" = "Отправлять push-уведомления о повышении кэшбэка, значимых событиях и новостях";
+"Settings_NotificationOnEmail" = "Уведомления на email";
+"Settings_SystemNotifications" = "Системные рассылки";
+"Settings_SendSystemOnEmail" = "Отправлять системные рассылки на эл. почту";
+"Settings_News" = "Новости";
+"Settings_InformAboutNews" = "Информировать о новостях, выгодных предложениях на эл. почту";
+"Settings_OrderNotifications" = "Уведомления о заказах";
+"Settings_SendNotificationAboutConfirmed" = "Отправлять уведомления о подтвержденных заказах на эл. почту";
+"Settings_StoresSettings" = "Настройки магазинов";
+"Settings_LinksInTheApp" = "Ссылки в приложениях";
+"Settings_OpenLinks" = "Открывать ссылки в приложениях магазинов";
+"Settings_InOrderToManageBindEmail" = "Для управления рассылками, необходимо привязать электронную почту";
+"Settings_Close" = "Закрыть";
+"Settings_Bind" = "Привязать";
+"Settings_InOrderToManageConfirmEmail" = "Для управления рассылками, необходимо подтвердить электронную почту";
+"Settings_Confirm" = "Подтвердить";
+"Settings_PersonalData" = "Личные сведения";
+"Settings_FirstLastName" = "Имя и Фамилия";
+"Settings_DateOfBirth" = "Дата рождения";
+"Settings_Change" = "Изменить";
+"Settings_Gender" = "Пол";
+"Settings_NotSpecified" = "Не указано";
+"Settings_Male" = "Мужской";
+"Settings_Female" = "Женский";
+"Settings_PhoneNumber" = "Номер телефона";
+"Settings_Location" = "Местоположение";
+"Settings_Country" = "Страна";
+"Country_Of_Residence" = "Страна проживания";
+"Settings_Region" = "Регион";
+"Settings_County" = "Округ";
+"Settings_City" = "Город";
+"Settings_AccountPassword" = "Пароль аккаунта";
+"Settings_Password" = "Пароль";
+"Settings_Change" = "Изменить";
+"Settings_BindSocial" = "Привязка соц. сетей";
+"Settings_BindSocialCanLoginOneClick" = "Привяжите социальные сети, чтобы вы могли входить в систему одним кликом";
+"Settings_Detach" = "Отвязать";
+"Asia-Pacific region" = "Азиатско-Тихоокеанский регион";
+"Settings_ChangeNumber" = "Изменить номер";
+"Settings_AccessCheck" = "Проверка доступа";
+"Success email sent" = "Успешно: письмо отправлено";
+"Settings_HaveAccessToPhoneNumber" = "У вас есть доступ к старому номеру";
+"Settings_Yes" = "Да";
+"Settings_No" = "Нет";
+"Settings_ChangingPhoneNumber" = "Изменение номера";
+"Settings_EnterOldPhoneNumber" = "Введите старый номер телефона, чтобы получить код";
+"Settings_OldPhoneNumber" = "Старый номер";
+"Settings_ByClickingOnGetCode" = "Нажимая кнопку «Получить код»‎, вы соглашаетесь на получение sms уведомлений";
+"Settings_GetCode" = "Получить код";
+"Settings_ConsentToGetSMS" = "Согласие на получение sms уведомлений";
+"Settings_TheUserGivesPrior" = "Пользователь, действуя своей волей и в своём интересе выражает Администрации Сайта предварительное согласие на получение сообщений, в том числе путем рассылки сообщений о продуктах / услугах Сайта следующим способом: СМС-сообщение, по номеру телефона Пользователя";
+"Settings_Ok" = "Понятно";
+"Settings_ConfirmCodeOnTheOldPhone" = "Код подтверждения на старом номере";
+"Settings_SendAgainIn" = "Отправить повторно через 00:59";
+"Settings_Send" = "Отправить";
+"Settings_SendAgain" = "Отправить повторно";
+"Settings_NewPhoneNumber" = "Новый номер";
+"Settings_ConfirmationCodeOnNewPhoneNumber" = "Код подтверждения на новом номере";
+"Settings_PhoneNumberIsSuccessChanged" = "Номер телефона успешно изменен";
+"Settings_PhoneNumberWillBeChanged" = "Номер будет изменен, но в целях вашей безопасности мы заблокируем выплаты на 15 дней. Код подтверждения будет отправлен на новый номер.";
+"Settings_InOrderToChangeThePassword" = "Для изменения пароля введите старый пароль, придумайте новый";
+"Settings_PasswordIsSuccessChanged" = "Пароль от аккаунта успешно изменен";
+"Settings_ChangingPhoto" = "Изменение фотографии";
+"Settings_DownloadFromGallery" = "Загрузить из галереи";
+"Settings_Gallery" = "Галерея";
+"Settings_AccessGallery" = "
+Доступ нужен, чтобы вы могли отправлять фото чеков, прикреплять скриншоты в техподдержке, менять фото профиля.";
+"Settings_TakeAPhoto" = "Сделать снимок";
+"Settings_Delete" = "Удалить";
+"Settings_NoResults" = "Результатов нет";
+"Settings_BindingPhoneNumber" = "Привязка номера";
+"Settings_InOrderToProtectUsePhone" = "Для защиты вашего аккаунта от мошенников используйте телефон для подтверждения операций";
+"Settings_ConfirmationCode" = "Код подтверждения";
+"Settings_PhoneNumberIsAttached" = "Номер телефона привязан";
+"Settings_BindingEmail" = "Привязка эл. почты";
+"Settings_InOrderToProtectLinkEmail" = "Для защиты аккаунта и получения доступа к выплатам, привяжите и подтвердите электронную почту";
+"Settings_EmailConfirmation" = "Подтверждение электронной почты";
+"Settings_EmailSendToYourEmail" = "На вашу почту было отправлено письмо для подтверждения";
+"Settings_GoToEmail" = "Перейти к почте";
+"Settings_DeletingAccount" = "Удаление аккаунта";
+"Settings_ReadTheInformation" = "Перед удалением аккаунта ознакомьтесь с данной информацией:";
+"Settings_IfYouDeleteAccount" = "1. Удаление аккаунта приведет к полному удалению всех личных данных (email, логин, пароль, данные профиля, кошельки, заказы и т.д.).";
+"Settings_WhileRemovingAccount" = "2. При удалении аккаунта будут отвязаны все рефералы. Доход по ним более не будет начисляться.";
+"Settings_AllFundsOnTheAccounts" = "3. Все средства на счетах более не будут доступны. Рекомендуем перед удалением вывести все имеющиеся средства на личных счетах сервиса.";
+"Settings_DeletedAccountCannotBeRecovered" = "4. Удаленный аккаунт не подлежит восстановлению. Следовательно, чтобы продолжать пользоваться сервисом после удаления текущего аккаунта, вам будет необходимо заново зарегистрироваться.";
+"Settings_TheAccountWillBePermanentlyDeleted" = "5. Аккаунт будет окончательно удален после 30 дней с момента запуска процесса удаления. В данный период возможно отменить процесс удаления, для этого необходимо написать в техническую поддержку сервиса.";
+"Settings_EnterTheControlLine" = "Для удаления аккаунта введите контрольную строку 08040116";
+"Settings_ControlLine" = "Контрольная строка";
+"Settings_AccountWillBeFinallyDeletedAfter" = "Аккаунт будет окончательно удален после 30 дней";
+"Settings_Good" = "Хорошо";
+"Settings_JoinUsOnSocialMedia" = "Присоединяйтесь к нам в социальных сетях";
+"Settings_OfficialSite" = "Официальный сайт";
+"Settings_Version" = "Версия";
+"Settings_warning" = "Для управления рассылками, необходимо подтвердить электронную почту";
+
+
+//Coming soon
+"ComingSoon_PaymentsTitle" = "Выплаты";
+"ComingSoon_PaymentsDescription" = "Скоро на этой странице вы сможете заказать выплату. Пока раздел разрабатывается, закажите выплату в мобильной версии сайта.";
+"ComingSoon_PaymentsButtonTitle" = "Заказать выплату на сайте";
+"ComingSoon_SupportTitle" = "Техподдержка";
+"ComingSoon_SupportDescription" = "Скоро вы сможете написать специалисту технической поддержки в приложении. Если у вас есть вопросы, задайте их через мобильную версию сайта.";
+"ComingSoon_SupportButtonTitle" = "Задать вопрос";
+"ComingSoon_ProfileTitle" = "Профиль";
+"ComingSoon_ProfileDescription" = "На этой странице вы сможете изменять личные данные, привязать аккаунт социальной сети или номер телефона. Пока раздел разрабатывается, редактируйте профиль на сайте.";
+"ComingSoon_ProfileButtonTitle" = "Перейти в профиль на сайте";
+"ComingSoon_StatisticTitle" = "Статистика";
+"ComingSoon_StatisticDescription" = "Здесь вы сможете узнать подробную статистику по покупкам приглашенных вами друзей. Пока мы работаем над разделом, посмотрите статистику на сайте.";
+"ComingSoon_StatisticButtonTitle" = "Посмотреть статистику";
+
+//MARK: - Error message from server
+
+"Error" = "Ошибка";
+"ErrorResponse" = "Ошибка ответа";
+"ErrorCode" = "Код ошибки:";
+"Error internet connection" = "При загрузке произошла ошибка. Проверьте Ваше подключение к сети.";
+"Error time out request" = "Превышено время ожидания ответа от сервера";
+"Error something went wrong" = "Упс. Что-то пошло не так";
+
+
+//MARK: - Notifications
+"Notifications" = "Уведомления";
+"Key words" = "Ключевые слова";
+"No notifications found" = "Уведомлений не найдено";
+"Try to reformulate your request" = "Попробуйте переформулировать запрос";
+"No notifications yet" = "Уведомлений пока нет";
+"Notifications will be displayed on this page" = "На этой странице будут отображаться уведомления";
+
+
+//MARK: - Country
+
+"Select country:" = "Выбор страны";
+"Select city:" = "Выбор городa";
+"UkraineV2" = "Украина 2.0";
+
+//MARK: - Payments Hints
+"Hint" = "Подсказка";
+"New" = "Новое";
+"The card date hint" = "Срок действия карты истек";
+"Names hint" = "Используйте буквы латинского алфавита";
+"Birth hint" = "Укажите дату вашего рождения";
+"Card hint" = "Укажите корректный номер карты";
+"One place" = "Теперь карты в одном месте";
+"Changed place" = "Мы объединили банковские карты разных стран в один раздел!";
+"UkrainV2HintTitle" = "Выводите кэшбэк чаще!";
+"UkrainV2HintText" = "Если ваша карта выпущена украинским банком, добавьте ее здесь, и выводите от 1$ кэшбэка без комиссии.";
+
+//MARK: - Payments
+"Payout order" = "Заказ выплаты";
+"Choose a wallet" = "Выберите кошелек";
+"Chose a balance" = "Выберите баланс";
+"Rubles" = "Рубли";
+"Dollars" = "Доллары";
+"Euro" = "Евро";
+"Pounds" = "Фунты";
+"Add a wallet" = "Добавить кошелек";
+"Add a wallet to withdraw your cashback" = "Добавьте кошелек, на который вы хотите выводить кэшбэк";
+"Addition of the wallet" = "Добавление кошелька";
+"Chose a wallet type" = "Выберите вид кошелька";
+"Card number" = "Номер карты";
+"Card Data:" = "Данные карты:";
+"Recipient data:" = "Данные получателя:";
+"Bank card" = "Банковские карты";
+"Wallet number" = "Номер кошелька:";
+"Valid period" = "Срок действия";
+"Card owner" = "Владелец карты";
+"Name on the card" = "Имя на карте";
+"Name" = "Имя";
+"Last name" = "Фамилия";
+"Last name on the card" = "Фамилия на карте";
+"Birth date" = "День рождения";
+"Address of recipient" = "Адрес получателя";
+"Name and surname should contain only Latin letters" = "Имя и фамилия должны содержать только символы латинского алфавита";
+"Enter the data" = "Введите данные";
+"ePID, phone number or email" = "ePID, телефон или email";
+"Delete the wallet" = "Удалить кошелек";
+"Сonfirm a wallet" = "Подтвердите кошелек";
+"Confirm" = "Подтвердить";
+"The wallet confirmation email is sent" = "Письмо для подтверждения кошелька отправлено на эл. почту";
+"Send again" = "Отправить повторно";
+"Failed to send code" = "Подождите 1 минуту и повторите попытку";
+"Activation code is sent to" = "Код активации отправлен на";
+"Choose an available balance and wallet" = "Выберите баланс и кошелек";
+"Choose another wallet or balance" = "Выберете другой кошелек или балланс";
+"You can see the order status in the Payout history section." = "Посмотреть статус заказа можно в разделе <«История выплат»>";
+"By making a donation, you accept the terms of our offer" = "Осуществляя пожертвование, вы принимаете <условия нашей оферты>";
+"Enter amount" = "Введите сумму";
+"Failed to load page" = "Не удалось загрузить страницу";
+"You can't add a wallet to withdraw" = "Вы не можете добавить кошелек для вывода средств, если у вас нет подтвержденной почты или номера телефона. Пожалуйста, добавьте и подтвердите почту или номер телефона, чтобы добавить кошелек и заказать выплату";
+
+//MARK: - Snapbar
+"title_snapbar" = "Пока, ePN Cashback.\nПривет, Backit!";
+"low_title_snapbar" = "Узнай все";
+
+
+//MARK: - Support
+"Active" = "Активные";
+"Closed" = "Закрытые";
+"EmptyDescription" = "Есть вопросы? Поможем вам разобраться. Начните диалог, и мы ответим вам в течение двух часов в любое время дня и ночи!";
+"Start a dialogue" = "Начать диалог";
+"Subject of issue" = "Тема вопроса";
+"Finish conversation" = "Завершить беседу?";
+"Your question will go to the tab Closed" = "Ваш вопрос отправится во вкладку Закрытые";
+"Complete" = "Завершить";
+"Evaluate Technical Support" = "Оцените работу техподдержки";
+"Evaluate" = "Оценить";
+"Comment" = "Комментарий";
+
+"Order is not counted" = "Не засчитался заказ";
+"Follow the page of the lost order" = "Переходите на страницу потерянного заказа, поможем вам его найти или получить компенсацию: https://backit.me/cashback/orders-search";
+"Order is being processed for a long time" = "Заказ долго в обработке";
+"Hello! Please, indicate" = "Здравствуйте!\nУкажите, пожалуйста: *магазин, в котором вы сделали заказ; *номер заказа; *дату заказа. \nНаши специалисты смогут быстрее разобраться в вопросе, если вы прикрепите скриншоты";
+"Order is received, cashback is refused" = "Заказ получен, кэшбэк отклонен";
+"Cashback amount is less than expected" = "Сумма кэшбэка меньше ожидаемой";
+"Please, indicate product link" = "Здравствуйте!\nУкажите, пожалуйста: *магазин, в котором вы сделали заказ; *номер заказа; *дату заказа; *ссылку на товар. \nНаши специалисты смогут быстрее разобраться в вопросе, если вы прикрепите скриншоты";
+"Payment issue" = "Вопрос по выплате";
+"Please tell us what happened." = "Здравствуйте!\nРасскажите, пожалуйста, что произошло.";
+"Referral is not counted" = "Не засчитался реферал";
+"Referral is not counted message" = "Здравствуйте!\nРасскажите, пожалуйста, что произошло.\nНаши специалисты смогут быстрее разобраться в вопросе, если вы: *отправите ссылку, по которой вы пригласили реферала; *укажите логин реферала; *устройство, с которого вы отправили ссылку; *устройство, с которого регистрировался ваш реферал.";
+"Referrals and Affiliate Programs" = "Рефералы и партнерские программы";
+"Promotional codes and promotions" = "Промокоды и акции";
+"Other problem" = "Другая проблема";
+"Other problem message" = "Здравствуйте!\nРасскажите, пожалуйста, что произошло.\nНаши специалисты смогут быстрее разобраться в вопросе, если вы прикрепите скриншоты";
+"Enter your message" = "Введите ваше сообщение";
+"You" = "Вы";
+"TodaySmall" = "cегодня";
+"YesterdaySmall" = "вчера";
+"3 photos maximum No more than 15 Mb" = "Максимум 3 фотографии,\nразмер каждой - не более 15 MB";
+"Photo" = "видео/фото";
+"Photos" = "видео/фото";
+"Delete" = "Удалить";
+"Resend" = "Переотправить";
+"No open tickets" = "У вас пока нет открытых вопросов";
+"No close tickets" = "У вас пока нет закрытых вопросов";
+"Connection lost" = "Соединение потеряно";
+"Check your internet connection and refresh the page" = "Проверьте подключение к интернету и обновите страницу.";
+"Refresh" = "Обновить";
+"Permission denied" = "Доступ запрещен";
+"Not have access to gallery. Please, allow the application to access to your photo library." = "Нет доступа к галерее. Пожалуйста, разрешите приложению доступ к вашей библиотеке фотографий.";
+"No more than 15 Mb" = "Максимальный размер файла - 15 MB";
+
+//MARK: - Lottery
+"Lottery" = "Лотерея";
+"Lottery winner" = "Победитель\nлотереи!";
+"Your cashback" = "Ваш кэшбэк";
+"Receipt #" = "Чек №";
+"Winnings will appear in the My Orders tab" = "Выйгрыш отобразится во вкладке \"Мои заказы\"";
+"until" = "до";
+"Win" = "Победа!";
+"ReceiptValue" = "Чек на";
+"Win up to 100% cashback for any receipt" = "Выиграй до 100%\nкэшбэка за любой чек";
+
+
+//MARK: - AUTH
+"Hello friend" = "Привет, друг!";
+"Create account" = "Создать аккаунт";
+"Log in to Backit" = "Войти в Backit";
+"Backit login" = "Вход в Backit";
+"Forgot your password?" = "Забыли пароль?";
+"Continue" = "Продолжить";
+"Password change" = "Замена пароля";
+"Recovery info message" = "Письмо с дальнейшими действиями будет отправлено на данный email.\n\nДля безопасности и сохранности ваших средств, мы заблокируем вывод средств на 72 часа.";
+"Email is sent!" = "Письмо отправлено!";
+"Take me back to the main page" = "Вернуться на Главную";
+"Enter promotional code" = "Промокод";
+"By clicking Continue, you confirm that you accept the Terms and the Privacy Policy of the Backit Affiliate Program" = "Нажимая «Продолжить», Вы принимаете <Условия>, и <Политику конфиденциальности> партнерской программы Backit";
+"I agree to receive newsletters" = "Я согласен на новостную рассылку";
+"from 8 to 20 characters" = "от 8 символов";
+"Account is created successfully!" = "Аккаунт успешно создан!";
+"Add promotional code" = "Добавить промокод";
+"The promotional code can be obtained from our partners or in the social media: Vkontakte, Facebook, Instagram." = "Промокод можно получить от наших партнеров или в лентах соц. сетей: Вконтакте, Фейсбуке, Инстаграме.";
+"Back" = "Назад";
+"Promo code entered" = "Активирован!";
+"Bind" = "Привязать";
+"You have an account registered at" = "У вас есть аккаунт, зарегистрированный на почту";
+"Bind your" = "Привязать аккаунт";
+"account to your Backit account?" = "к вашему аккаунту Backit?";
+"Account binding" = "Привязка аккаунта";
+"Enter your password from your" = "Введите ваш пароль от аккаунта";
+"account in Backit." = "в Backit.";
+"is successfully bound!" = "успешно привязан!";
+"Create a new password" = "Придумайте новый пароль";
+"The new password was created" = "Новый пароль создан!";
+"You already have an account registered by this mail attached to your Apple id" = "У вас уже есть аккаунт, зарегистрированный на электронную почту от вашего Apple id. Временно мы не можем дать вам возможность связать аккаунт Backit и данный Apple id.";
+
+//Catpcha
+"Number of appeals is exceeded" = "Превышено количество обращений";
+"Enter the code from the image and confirm that you are not a robot" = "Введите код с картинки и подтвердите что вы не робот";
+"Code from the picture" = "Код с картинки";
+
+//MARK: - Profile
+"Profile" = "Профиль";
+"delete_profile" = "Удаление аккаунта";
+"delete_profile_title" = "Перед удалением аккаунта ознакомьтесь с данной информацией:";
+"delete_profile_message" = "1. Удаление аккаунта приведет к полному\nудалению всех личных данных (email, логин, пароль, данные профиля, кошельки, заказы и т.д.).\n\n2. При удалении аккаунта будут отвязаны все рефералы. Доход по ним более не будет начисляться.\n\n3. Все средства на счетах более не будут доступны. Рекомендуем перед удалением вывести все имеющиеся средства на личных счетах сервиса.\n\n4. Удаленный аккаунт не подлежит восстановлению. Следовательно, чтобы продолжать пользоваться сервисом после удаления текущего аккаунта, вам будет необходимо заново зарегистрироваться.\n\n5. Аккаунт будет окончательно удален после 30 дней с момента запуска процесса удаления. В данный период\nвозможно отменить процесс удаления, для этого необходимо написать в техническую поддержку сервиса.\n";
+"Enter the control line 08040116 to delete your account" = "Для удаления аккаунта введите контрольную строку —";
+"Control line" = "Контрольная строка";
+"Account will be finally deleted after 30 days" = "Аккаунт будет окончательно удален после 30 дней";
+"By clicking the <Get Code> button, you agree to receive sms notifications" = "Нажимая кнопку «Получить код»‎, вы соглашаетесь на получение sms уведомлений";
+"Link social networks in order to log in with one click:" = "Привяжите социальные сети, чтобы вы могли входить в систему одним кликом:";
+"Add mail address" = "Добавить почту";
+"Add mobile number" = "Добавить телефон";
+"Location" = "Местоположение";
+"Change your password" = "Изменить пароль";
+"Delete account" = "Удалить аккаунт";
+"Successfully: social network account is bound" = "Успешно: соц. сеть привязана";
+"Error: This account is bound with another account." = "Ошибка: Эта учетная запись связана с другим аккаунтом";
+"Enter country" = "Введите страну";
+"Enter region" = "Введите регион";
+"Enter city" = "Введите город";
+"Confirm mail address" = "Подтвердите почту!";
+"Confirm mobile number" = "Подтвердите телефон";
+"Phone isn't confirmed" = "Телефон не подтвержден";
+"Link and confirm your email to protect your account and gain access to payouts " = "Для защиты аккаунта и получения доступа к выплатам, привяжите и подтвердите электронную почту";
+"Check your email!" = "Проверьте почту!";
+"A confirmation mail has been set to your mailbox" = "На вашу почту было отправлено письмо для подтверждения";
+"Successfully: Changes have been saved" = "Успешно: изменения сохранены";
+"Add password" = "Добавить пароль";
+"For security, create a password with more than 8 characters" = "Для безопасности придумайте пароль, содержащий более 8 символов";
+"Male" = "М";
+"Female" = "Ж";
+"Done" = "Готово";
+"See photo" = "Посмотреть фото";
+"Delete photo" = "Удалить фото";
+"Enter name" = "Введите имя";
+"M" = "М";
+"W" = "Ж";
+"Date of birth" = "Дата рождения";
+"Add password" = "Добавить пароль";
+"This section is under development" = "Раздел находится в разработке";
+"Add email" = "Добавьте почту!";
+"Add and confirm email" = "Чтобы добавить номер телефона, сначала необходимо привязать почту";
+"Add email button" = "Добавить";
+"Select country" = "Выберите страну";
+"Phone usage info" = "Для защиты вашего аккаунта от мошенников используйте телефон для подтверждения операций.\n\nНажимая кнопку «Далее»‎, вы соглашаетесь на получение sms уведомлений.";
+"Edit phone info 1" = "Нажимая кнопку «Далее»‎, вы соглашаетесь на получение sms уведомлений";
+"Edit phone info 2" = "Нажимая кнопку «Далее»‎, вы соглашаетесь на получение sms уведомлений\n\nНомер будет изменен, но в целях вашей безопасности мы заблокируем выплаты на 15 дней.";
+"Edit phone info 2 Specific Color" = "на 15 дней";
+"Phone" = "Телефон";
+"Please enter code" = "Введите одноразовый пароль из SMS";
+"Incorrect code. Please try again" = "Неверный код. Попробуйте еще раз";
+"Send again in" = "Отправить повторно через";
+"Send again" = "Отправить повторно";
+
+//Order
+"OrdersTitle" = "Заказы";
+"Purchase for" = "Покупка на";
+"Order №" = "Заказ №";
+"Receipt №" = "Чек №";
+"Cashback found. More inside" = "Кэшбэк найден.\nПодробнее внутри";
+"No cashback products found" = "Не найдены товары с кэшбэком";
+"Looking for cashback in your check" = "Ищем кэшбэк в вашем чеке";
+"Receipts" = "Чеки";
+"You have no orders yet" = "У вас пока нет заказов";
+"Here you will find your purchases in stores" = "Здесь будут ваши покупки в магазинах, сканированные чеки и данные о кэшбэке за последние 6 месяцев.";
+"Without filters" = "Без фильтров";
+"Scanning a receipt" = "Сканирование чека";
+"Transaction_accrued" = "начислен";
+"Transaction_on_hold" = "в обработке";
+"Transaction_сanceled" = "отменен";
+"TransactionStatus_Completed" = "кэшбэк начислен";
+"TransactionStatus_Rejectd" = "кэшбэк отменен";
+"TransactionStatus_InProcess" = "кэшбэк в обработке";
+"TransactionStatus_CashbackFound" = "Кэшбэк найден.";
+"A separate order has been created for goods" = "Для товара с кэшбэком создан отдельный заказ с таким же номером чека";
+"Purchase on" = "Покупка";
+"For" = "на";
+"Copied" = "Скопировано";
+"Cashback has switched to balance and is available for withdrawal." = "Кэшбэк перешел на баланс и доступен к выводу.";
+"Please check the check again. If there is exactly the right product there, write to tech support." = "Пожалуйста, проверьте чек еще раз. Если там точно есть нужный товар, напишите в техподдержку.";
+"Cashback for order canceled" = "Кэшбэк за заказ отменен. Так бывает, если покупатель оформляет возврат товара. Если произошла ошибка и товар у вас, напишите в техподдержку.";
+"Checking a check takes from a few days to a couple of months." = "Проверка чека занимает от нескольких дней до пары месяцев. Среднее время ожидания кэшбэка можно посмотреть на странице предложения.";
+"Confirm receipt of order on AliExpress to get cashback faster." = "Подтвердите получение заказа на AliExpress, чтобы быстрее получить кэшбэк.";
+"Order processing takes from several days to a couple of months." = "Обработка заказа занимает от нескольких дней до пары месяцев. Среднее время ожидания кэшбэка можно посмотреть на странице магазина в нашем приложении.";
+"Go to the store" = "Перейти в магазин";
+"Receipt Information" = "Информация о чеке";
+"No orders found" = "Заказов не найдено";
+"Renewed" = "Обновлено";
+"Receipt in processing since" = "Чек в обработке с";
+"Receipt was checked on" = "Чек проверен";
+"Receipt was declined on" = "Чек отклонен";
+"Item was found in receipt on" = "Товар найден в чеке";
+"Cashback for the product was accrued on" = "Кэшбэк за товар начислен";
+"Cashback was rejected on" = "Кэшбэк за товар отклонен";
+"Cashback for purchase is being processed since" = "Кэшбэк за покупку в обработке с";
+"Cashback was credited to the balance on" = "Кэшбэк начислен на баланс";
+"Cashback for purchase was rejected on" = "Кэшбэк за покупку отклонен";
+"on" = "";
+"Ok, thanks" = "Хорошо, спасибо";
+"Email" = "Почта";
+"social network is deleted" = "соц. сеть удалена";
+"This account is bound with another account" = "Эта учетная запись связана с другим аккаунтом";
+"First of all, confirm the e-mail address and set a password" = "Сначала подтвердите Email-адрес и установите пароль";
+"social network account is bound" = "соц. сеть привязана";
+"Old password" = "Старый пароль";
+"In order to change the password" = "Для изменения пароля введите старый пароль, придумайте новый";
+"Changes have been saved" = "изменения сохранены";
+"Please try again later" = "Пожалуйста, попробуйте позже";
+"This account is bound with another account." = "Эта учетная запись связана с другим аккаунтом";
+"You haven't confirmed email" = "Вы не подтвердили почту";
+
+// MARK: - AliExpress link checker banner
+"AliExpress link checker title" = "Новые условия AliExpress";
+"AliExpress link checker description" = "AliExpress начисляет кэшбэк не за все товары. Проверьте, получите ли вы кэшбэк за покупку";
+"AliExpress link checker button title" = "Проверить";

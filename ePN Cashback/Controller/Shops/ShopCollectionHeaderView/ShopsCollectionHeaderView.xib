@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShopsCollectionHeaderView" customModule="Backit" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="U6b-Vx-4bR" id="17w-oB-Yxh"/>
+                <outlet property="doodlesPageControl" destination="W2T-Im-d13" id="mK8-Ja-hJZ"/>
+                <outlet property="pagerView" destination="spd-EE-k6P" id="g07-mm-F9X"/>
+                <outlet property="pagerViewHeightConstraint" destination="n7r-zm-LC1" id="HIO-LD-RWC"/>
+                <outlet property="pagerViewTopConsrtaint" destination="fxF-5z-anI" id="bUL-sj-UP9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR">
+            <rect key="frame" x="0.0" y="0.0" width="530" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oc6-1L-H8X">
+                    <rect key="frame" x="0.0" y="0.0" width="530" height="140"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="spd-EE-k6P" customClass="FSPagerView" customModule="FSPagerView">
+                            <rect key="frame" x="0.0" y="0.0" width="530" height="130"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="130" id="n7r-zm-LC1"/>
+                            </constraints>
+                        </view>
+                        <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="W2T-Im-d13">
+                            <rect key="frame" x="245.5" y="110" width="39" height="10"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="10" id="O5X-Vg-q7U"/>
+                            </constraints>
+                        </pageControl>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96078431369999995" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="spd-EE-k6P" secondAttribute="bottom" constant="10" id="6uz-hb-8sD"/>
+                        <constraint firstAttribute="trailing" secondItem="spd-EE-k6P" secondAttribute="trailing" id="Edv-7q-Cd3"/>
+                        <constraint firstItem="spd-EE-k6P" firstAttribute="leading" secondItem="oc6-1L-H8X" secondAttribute="leading" id="VM8-4U-N9J"/>
+                        <constraint firstItem="spd-EE-k6P" firstAttribute="top" secondItem="oc6-1L-H8X" secondAttribute="top" id="fxF-5z-anI"/>
+                        <constraint firstItem="W2T-Im-d13" firstAttribute="top" secondItem="spd-EE-k6P" secondAttribute="bottom" constant="-20" id="l16-43-eKs"/>
+                        <constraint firstItem="W2T-Im-d13" firstAttribute="centerX" secondItem="oc6-1L-H8X" secondAttribute="centerX" id="peR-v2-1jM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="oc6-1L-H8X" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="Fbg-c8-sEE"/>
+                <constraint firstAttribute="trailing" secondItem="oc6-1L-H8X" secondAttribute="trailing" id="SaY-hw-QDo"/>
+                <constraint firstAttribute="bottom" secondItem="oc6-1L-H8X" secondAttribute="bottom" id="VDO-sd-ruU"/>
+                <constraint firstItem="oc6-1L-H8X" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="Yuo-YW-cXs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <point key="canvasLocation" x="286.95652173913044" y="135.26785714285714"/>
+        </collectionReusableView>
+    </objects>
+</document>
